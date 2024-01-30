@@ -1,1 +1,1 @@
-# typescript
+# typescript by https://www.typescriptlang.org/

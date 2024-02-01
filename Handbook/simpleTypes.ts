@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // THREE PRIMITIVES
 const a: string = "aaa";
 const b: number = 6;
@@ -35,7 +36,7 @@ function getID02(id: number| string ) {
 getID02("aaaa"); // AAAA
 
 // Type Aliases
-type newType = {
+type NewType = {
     a:number,
     b:string,
 }; 
@@ -43,10 +44,10 @@ type newType = {
 // const x : newType = 1; // error
 // const xx: newType = {a:1,b:2,} // error b is string
 
-interface newType02  {
+interface NewType02  {
     a: string,
     b: number,
-} ; 
+} 
 
 // a new type can be formed with type or interface
 // a new property can be added to interface but not type

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 function func01(a:number|string):string{
     if(typeof a === "number") return a.toString();
     else return a;
@@ -5,7 +6,7 @@ function func01(a:number|string):string{
 
 // TRUSTHINESS NARROWING
 // 0 NaN "" null undefined are false 
-function func02(a:string[]| null| string   ):string{
+function func02(a:string[]| null| string   ):string | undefined {
     // if(typeof a === "object"){
     //     for(const v of a) { // can be null
 
@@ -36,11 +37,11 @@ function func03(a: string|null|undefined) :string {
 } 
 
 // IN OPERATOR NARROWING
-type newType = {
+type NewType = {
     aa: number,
 } 
 
-function func04(a: number|newType) :string {
+function func04(a: NewType ) :string {
     // return a.toUpperCase(); // can not have the method
     if("aa" in a){
         return a.aa.toString();
@@ -52,5 +53,5 @@ function func04(a: number|newType) :string {
 
 // TYPE PREDICATE
 let aabb : number| string;
-aabb.toUpperCase(); // error
-(aabb as string).toLowerCase() // the method can be reached by type predicate
+// aabb.toUpperCase(); // error
+// (aabb as string).toLowerCase() // the method can be reached by type predicate

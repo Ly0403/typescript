@@ -8,6 +8,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+/* eslint-disable @typescript-eslint/no-unused-vars */
 // THREE PRIMITIVES
 const a = "aaa";
 const b = 6;
@@ -40,7 +41,6 @@ function getID02(id) {
         console.log(id);
 }
 getID02("aaaa"); // AAAA
-;
 // a new type can be formed with type or interface
 // a new property can be added to interface but not type
 // type can work with primitives but the interface not
@@ -54,6 +54,6 @@ let lit01;
 const lit02 = 2; // type of lit02 is 2
 // null or undefined
 function stringOrNull(id) {
-    console.log(id === null || id === void 0 ? void 0 : id.toUpperCase());
+    console.log(id.toUpperCase());
 }
 stringOrNull("2");

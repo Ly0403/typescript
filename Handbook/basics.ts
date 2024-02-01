@@ -1,6 +1,6 @@
 const a = 3;
 const b = "3";
-const c = function(a:any,b:any){
+const c = function(a:number,b:number){
     console.log(a+b);
 } 
 
@@ -18,14 +18,15 @@ const obj01 = {
     x :1,
     y:2,
 }
+console.log(obj01.x);
 // console.log(obj01.z); // the result for JS is undefined
 // typescript shows the error before running the code
 
-const func01 = (a: string, b: Date)=>{
+const func011 = (a: string, b: Date)=>{
     console.log( `${a} - ${b}`  );
 }
 
 // func01("aaa",Date()); // error since the Date() is string
-func01("aaa", new Date()); // types for function params
+func011("aaa", new Date()); // types for function params
 
 // default target  for tsc is es3

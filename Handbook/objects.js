@@ -1,4 +1,3 @@
-"use strict";
 function func01(input01) {
     console.log(input01.b);
     console.log(input01.c);
@@ -20,3 +19,4 @@ const var03 = {
 };
 const var04 = ["1", 2, false];
 const var05 = ["3", false, false, 3];
+export default {};

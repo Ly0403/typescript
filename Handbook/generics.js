@@ -1,4 +1,3 @@
-"use strict";
 function func01(arg) {
     return arg;
 }
@@ -31,3 +30,4 @@ func02(newObj01, "a"); // OK
 function func04(a) {
     console.log(a.length); // Type T have property length from constrains
 }
+export default {};

@@ -31,3 +31,5 @@ const arr01 = [
 ];
 
 type NewType07 = typeof arr01[number]; 
+
+export default {} ;

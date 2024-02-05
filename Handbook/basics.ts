@@ -30,3 +30,4 @@ const func011 = (a: string, b: Date)=>{
 func011("aaa", new Date()); // types for function params
 
 // default target  for tsc is es3
+export default {} ;

@@ -49,3 +49,5 @@ function func05(a: string| number ){
 } 
 
 console.log(func05(2));
+
+export default {} ;

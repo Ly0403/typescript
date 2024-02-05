@@ -1,4 +1,3 @@
-"use strict";
 /* eslint-disable @typescript-eslint/no-unused-vars */
 function func01(a) {
     if (typeof a === "number")
@@ -47,3 +46,4 @@ function func04(a) {
 let aabb;
 // aabb.toUpperCase(); // error
 // (aabb as string).toLowerCase() // the method can be reached by type predicate
+export default {};

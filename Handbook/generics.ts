@@ -48,3 +48,4 @@ function func04<T extends {length: number} >(a: T): void {
     console.log(a.length); // Type T have property length from constrains
 } 
 
+export default {} ;

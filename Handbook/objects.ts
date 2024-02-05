@@ -78,3 +78,5 @@ const var04: TupleType01 = ["1",2,false];
 type TupleType02 = [string, ...boolean[]  , number];
 
 const var05 : TupleType02 = ["3",false,false,3]; 
+
+export default {} ;

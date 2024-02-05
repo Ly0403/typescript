@@ -1,4 +1,3 @@
-"use strict";
 function sum(func01, a, b) {
     func01(a, b);
 }
@@ -22,6 +21,8 @@ function func04(a) {
 // console.log(func04(2)); // error 2 as number not includes{ a: number} 
 console.log(func04({ a: 4 }));
 function func05(a) {
-    return a;
+    // return "" + a; // error since return always string
+    return a; // OK
 }
 console.log(func05(2));
+export default {};

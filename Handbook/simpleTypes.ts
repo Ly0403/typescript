@@ -70,3 +70,5 @@ function stringOrNull(id?: string | null ) {
     console.log(id!.toUpperCase());
 }
 stringOrNull("2");
+
+export default {} ;

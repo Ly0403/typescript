@@ -55,3 +55,5 @@ function func04(a: NewType ) :string {
 let aabb : number| string;
 // aabb.toUpperCase(); // error
 // (aabb as string).toLowerCase() // the method can be reached by type predicate
+
+export default {} ;

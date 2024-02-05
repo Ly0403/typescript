@@ -1,4 +1,3 @@
-"use strict";
 const a = 3;
 const b = "3";
 const c = function (a, b) {
@@ -24,3 +23,4 @@ const func011 = (a, b) => {
 // func01("aaa",Date()); // error since the Date() is string
 func011("aaa", new Date()); // types for function params
 // default target  for tsc is es3
+export default {};

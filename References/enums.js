@@ -29,5 +29,9 @@ var Enum04;
     Enum04["a"] = "FIRST";
     Enum04[Enum04["b"] = "FIRST".length] = "b";
 })(Enum04 || (Enum04 = {}));
-console.log(Enum01[0]);
+var Enum05;
+(function (Enum05) {
+    Enum05[Enum05["A"] = 0] = "A";
+    Enum05[Enum05["B"] = "SECOND".length] = "B";
+})(Enum05 || (Enum05 = {}));
 export default {};
